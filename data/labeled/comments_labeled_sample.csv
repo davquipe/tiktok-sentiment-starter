@@ -1,0 +1,19 @@
+id,video_id,text,gold_label,notes
+100000000000000001,700000000000000001,"Este tutorial está buenísimo, gracias por explicarlo tan claro 🔥",POS,Etiqueta de demostración sobre texto sintético
+100000000000000002,700000000000000001,"No entendí nada, faltan muchos pasos",NEG,Etiqueta de demostración sobre texto sintético
+100000000000000003,700000000000000001,¿Qué versión estás usando?,NEU,Etiqueta de demostración sobre texto sintético
+100000000000000004,700000000000000001,"Excelente, me sirvió bastante",POS,Etiqueta de demostración sobre texto sintético
+100000000000000005,700000000000000001,El audio se escucha horrible,NEG,Etiqueta de demostración sobre texto sintético
+100000000000000006,700000000000000002,Qué hermosa vista de Arequipa 😍,POS,Etiqueta de demostración sobre texto sintético
+100000000000000007,700000000000000002,El lugar estaba muy sucio cuando fui,NEG,Etiqueta de demostración sobre texto sintético
+100000000000000008,700000000000000002,¿Cómo llego desde el centro?,NEU,Etiqueta de demostración sobre texto sintético
+100000000000000009,700000000000000002,"Espectacular paisaje, tengo que visitarlo",POS,Etiqueta de demostración sobre texto sintético
+100000000000000010,700000000000000002,"No vale la pena, está demasiado caro",NEG,Etiqueta de demostración sobre texto sintético
+100000000000000011,700000000000000003,La bicicleta está increíble 🚴,POS,Etiqueta de demostración sobre texto sintético
+100000000000000012,700000000000000003,"Qué mal servicio, jamás volvería",NEG,Etiqueta de demostración sobre texto sintético
+100000000000000013,700000000000000003,¿Cuánto pesa ese modelo?,NEU,Etiqueta de demostración sobre texto sintético
+100000000000000014,700000000000000003,"Muy recomendable, supera mis expectativas",POS,Etiqueta de demostración sobre texto sintético
+100000000000000015,700000000000000003,Me decepcionó la calidad de los componentes,NEG,Etiqueta de demostración sobre texto sintético
+100000000000000016,700000000000000003,¿Hacen envíos a Perú?,NEU,Etiqueta de demostración sobre texto sintético
+100000000000000017,700000000000000001,Está genial!,POS,Etiqueta de demostración sobre texto sintético
+100000000000000018,700000000000000002,Terrible atención al visitante,NEG,Etiqueta de demostración sobre texto sintético

@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tiktok-sentiment"
+version = "0.3.0"
+description = "Pipeline reproducible de análisis de sentimientos de comentarios en español."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "TikTok Sentiment Starter" }]
+dependencies = []
+
+[project.optional-dependencies]
+nlp = ["transformers>=4.53,<5"]
+
+[project.scripts]
+tiktok-sentiment = "tiktok_sentiment.cli:main"
+tiktok-make-labels = "tiktok_sentiment.evaluation_cli:label_main"
+tiktok-evaluate = "tiktok_sentiment.evaluation_cli:evaluate_main"
+tiktok-import = "tiktok_sentiment.import_cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
